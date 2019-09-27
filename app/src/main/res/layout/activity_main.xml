@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/mcolor">
+
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:text="NAME"
+        android:textSize="20dp" />
+    <TextView
+        android:layout_width="130dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="70dp"
+        android:text="acc number"
+        android:textSize="20dp" />
+    <TextView
+        android:layout_width="135dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="120dp"
+        android:text="num of tonnes"
+        android:textSize="20dp" />
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="170dp"
+        android:text="date"
+        android:textSize="20dp" />
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="220dp"
+        android:text="p_p_tonne"
+        android:textSize="20dp" />
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="160dp"/>
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginStart="160dp"/>
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginStart="160dp"/>
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginStart="160dp"/>
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="170dp"
+        android:layout_marginStart="160dp"/>
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:text="total payment"
+        android:layout_marginTop="300dp"
+        android:layout_centerInParent="true"
+        android:textSize="30dp"
+        />
+    <EditText
+        android:layout_width="400dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="330dp"/>
+    <Button
+    android:layout_width="100dp"
+    android:layout_height="40dp"
+        android:layout_marginTop="398dp"
+        android:layout_marginStart="10dp"
+        android:text="decline"/>
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="398dp"
+        android:layout_marginStart="150dp"
+        android:text="accept"/>
+
+</RelativeLayout>
